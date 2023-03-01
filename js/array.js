@@ -128,4 +128,4 @@ console.log(date);
 const dateFormat = `${days[day]}, ${date.getDate()} ${month[date.getMonth()]}
 ${date.getFullYear()}`;
 
-document.body.innerHTML = dateFormat;
+document.getElementById("dateId").innerHTML = dateFormat;
